@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href=""><span class="blind">서해종합건설</span></a></h1>
+        <nav class="gnb_wrap">
+            <ul class="gnb">
+                <li>
+                    <a href="" class="dept">회사소개</a>
+                    <div class="sub_wrap">
+                        <div class="main_title">회사소개</div>
+                        <ul class="sub">
+                            <li><a href="">대표인사말</a></li>
+                            <li><a href="">연혁</a></li>
+                            <li><a href="">신용평가등급</a></li>
+                            <li><a href="">상표권등록현황</a></li>
+                            <li><a href="">그룹사 현황</a></li>
+                            <li><a href="">조직도</a></li>
+                            <li><a href="">찾아오시는 길</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="dept">사업영역</a>
+                    <div class="sub_wrap">
+                        <div class="main_title">사업영역</div>
+                        <ul class="sub">
+                            <li><a href="">사업소개</a></li>
+                            <li><a href="">건축분야</a></li>
+                            <li><a href="">공공분야</a></li>
+                            <li><a href="">레저분야</a></li>
+                            <li><a href="">토목분야</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="dept">홍보센터</a>
+                    <div class="sub_wrap">
+                        <div class="main_title">홍보센터</div>
+                        <ul class="sub">
+                            <li><a href="">브랜드소개</a></li>
+                            <li><a href="">CI/BI소개</a></li>
+                            <li><a href="">기업브로슈어</a></li>
+                            <li><a href="">보도자료</a></li>
+                            <li><a href="">공지사항</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="dept">윤리 및 지속가능경영</a>
+                    <div class="sub_wrap">
+                        <div class="main_title">윤리 및 지속가능경영</div>
+                        <ul class="sub">
+                            <li><a href="">비전</a></li>
+                            <li><a href="">윤리정도경영</a></li>
+                            <li><a href="">사회공헌</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="dept">현장조회</a>
+                    <div class="sub_wrap">
+                        <div class="main_title">현장조회</div>
+                        <ul class="sub">
+                            <li><a href="">중도금조회</a></li>
+                            <li><a href="">현장조회</a></li>
+                            <li><a href="">하자접수(C/S)</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="dept">인재채용</a>
+                    <div class="sub_wrap">
+                        <div class="main_title">인재채용</div>
+                        <ul class="sub">
+                            <li><a href="">인재상</a></li>
+                            <li><a href="">인사제도</a></li>
+                            <li><a href="">채용공고</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>            
+        </nav>
+        <div class="all_btn">
+            <span class="blind">메뉴</span>
+            <span class="btn_top"></span>
+            <span class="btn_middle"></span>
+            <span class="btn_bottom"></span>
+        </div>
+        <div class="all_menu">
+            <ul class="menu_wrap">
+                <li>
+                    <strong>회사소개</strong>
+                    <ul class="sub">
+                        <li><a href="">대표인사말</a></li>
+                        <li><a href="">연혁</a></li>
+                        <li><a href="">신용평가등급</a></li>
+                        <li><a href="">상표권등록현황</a></li>
+                        <li><a href="">그룹사 현황</a></li>
+                        <li><a href="">조직도</a></li>
+                        <li><a href="">찾아오시는 길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>사업영역</strong>
+                    <ul class="sub">
+                        <li><a href="">사업소개</a></li>
+                        <li><a href="">건축분야</a></li>
+                        <li><a href="">공공분야</a></li>
+                        <li><a href="">레저분야</a></li>
+                        <li><a href="">토목분야</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>홍보센터</strong>
+                    <ul class="sub">
+                        <li><a href="">브랜드 소개</a></li>
+                        <li><a href="">CI/BI소개</a></li>
+                        <li><a href="">기업브로슈어</a></li>
+                        <li><a href="">보도자료</a></li>
+                        <li><a href="">공지사항</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>윤리 및 지속가능경영</strong>
+                    <ul class="sub">
+                        <li><a href="">비전</a></li>
+                        <li><a href="">윤리정도경영</a></li>
+                        <li><a href="">사회공헌</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>현장 조회</strong>
+                    <ul class="sub">
+                        <li><a href="">중도금 조회</a></li>
+                        <li><a href="">현장 조회</a></li>
+                        <li><a href="">하자 접수(C/S)</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>인재채용</strong>
+                    <ul class="sub">
+                        <li><a href="">인재상</a></li>
+                        <li><a href="">인사제도</a></li>
+                        <li><a href="">채용공고</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="sc_visual">
+            <div class="swiper main_swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <img src="./images/mainvisual_01.jpg" alt="" data-swiper-parallax-scale="1.5" data-swiper-parallax-x="100%">
+                      <div class="txt_box">
+                          <strong>HOUSING</strong>
+                          <p>삶의 안락함과 여유를 갖춘 진정한 보금자리</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/mainvisual_02.jpg" alt="" data-swiper-parallax-scale="1.5"  data-swiper-parallax-x="100%">
+                      <div class="txt_box">
+                        <strong>ARCHI</strong>
+                        <p>건축을 통해 새로운 생활터전을 창조</p>
+                        <strong>TECTURE</strong>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/mainvisual_03.jpg" alt="" data-swiper-parallax-scale="1.5"  data-swiper-parallax-x="100%">
+                      <div class="txt_box">
+                        <strong>LEISURE</strong>
+                        <p>재충전을 통한 삶의 즐거움과 행복</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <img src="./images/mainvisual_04.jpg" alt="" data-swiper-parallax-scale="1.5"  data-swiper-parallax-x="100%">
+                      <div class="txt_box">
+                        <strong>DEVELOP</strong>
+                        <p>사회의 근간을 튼튼하게 세상의 뿌리를 탄탄하게</p>
+                        <strong>MENT</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="controls">
+                    <div class="swiper-pagination"></div>
+                    <div class="btns">
+                        <a href="" class="btn prev"><span class="blind">이전</span></a>
+                        <a href="" class="btn next"><span class="blind">다음</span></a>
+                        <span class="num">
+                            <span class="curr">9</span>/ <span class="total">9</span>
+                        </span>
+                        <div class="state">
+                            <a href="" class="pause on"><span class="blind">정지</span></a>
+                            <a href="" class="play"><span class="blind">재생</span></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="guage">
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="top_info">
+                <div class="ktx">
+                    <div class="imgbox">
+                        <a href="">
+                            <img src="./images/info_01.jpg" alt="">
+                            <p class="purple">분양중</p>
+                        </a>
+                    </div>
+                    <div class="txt_box">
+                        <h2>KTX 송도역 서해그랑블 더파크</h2>
+                        <p>주소: 인천광역시 연수구 옥련동 118-46번지 일원</p>
+                        <p>공급규모: 공동주택 348 세대 및 부대복리시설</p>
+                    </div>
+                </div>
+                <ul class="right_wrap">
+                    <li class="close"><a href=""><span><span class="blind">닫기</span></span></a></li>
+                    <li class="title"><a href="">분<br>양<br>안<br>내</a></li>
+                </ul>
+            </div>
+            <div class="bottom_info">
+                <div class="left_wrap">
+                    <div class="imgbox">
+                        <img src="./images/b_info01.png" alt="">
+                        <img src="./images/b_info02.png" alt="">
+                    </div>
+                    <div class="txt_box">
+                        <h2>토지매입 및 개발사업문의</h2>
+                        <p class="tel"><a href="070-5005-7346">070-5005-7346</a></p>
+                        <p class="mail"><a href="">development@seohai.co.kr</a></p>
+                    </div>
+                </div>
+                <div class="title_box"><a href="">수<br>주<br>문<br>의<span class="more"><span class="blind">더보기</span></span></a></div>
+            </div>
+        </section>
+        <section class="sc_business">
+            <div class="title_box" data-aos="fade-up" data-aos-duration="1000">
+                <h2>사업소개</h2>
+                <p>고객을 위한 가치창조, 고객의 최대 감동을 위해 최선의 노력을 다하겠습니다.</p>
+            </div>
+            <ul class="wrap bg01" data-aos="fade-up" data-aos-duration="1000">
+                <li>
+                    <a href="">
+                        <img src="./images/busi_icon_01.png" alt="">
+                        <p>건축 분야</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/busi_icon_02.png" alt="">
+                        <p>공공 분야</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/busi_icon_03.png" alt="">
+                        <p>레저 분야</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/busi_icon_04.png" alt="">
+                        <p>토목 분야</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="sc_info">
+            <div class="title_box" data-aos="fade-up" data-aos-duration="1000">
+                <h2>분양안내</h2>
+                <p>건전한 기업 정신과 체계적인 지식 경영으로 내일의 가치를 높여갑니다.</p>
+            </div>
+            <div class="wrap" data-aos="fade-up" data-aos-duration="1000">
+                <div class="swiper info_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" >
+                          <div class="imgbox">
+                              <a href=""><img src="./images/info_01.jpg" alt=""></a>
+                              <p class="purple">분양중</p>
+                          </div>
+                          <div class="txt_box">
+                              <a href="">
+                                  <!-- h2 > strong으로 변경 -->
+                                <h2>KTX 송도역 서해그랑블 더파크</h2>
+                                <p>인천광역시 연수구 옥련동 118-46번지 일원</p>
+                                <p>공급규모 : 공동주택 348 세대 및 부대복리시설</p>
+                                <p>분양입주 : 2022.02</p>
+                              </a>           
+                              <div class="btn_all"><a href="">상세보기</a></div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="imgbox">
+                              <a href=""><img src="./images/info_02.jpg" alt=""></a>
+                              <p class="purple">분양중</p>
+                          </div>
+                          <div class="txt_box">
+                              <a href="">
+                                <h2>계양 서해그랑블 더 테라스 신축공사</h2>
+                                <p>인천광역시 계양구 효성동 245-12번지 일원</p>
+                                <p>공급규모 : 19,438.8㎡ 총124세대 / 지하1층~지상23층</p>
+                                <p>분양입주 : 분양중</p>
+                              </a>                          
+                              <div class="btn_all"><a href="">상세보기</a></div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="imgbox">
+                              <a href=""><img src="./images/info_03.jpg" alt=""></a>
+                              <p class="gray">분양예정</p>
+                          </div>
+                          <div class="txt_box">
+                              <a href="">
+                                <h2>용인양지 1블럭 공동주택사업</h2>
+                                <p>경기도 용인시 양지면 양지리 715번지 일원</p>
+                                <p>공급규모 : 공동주택 1053세대/ 지구전체면적 48,755.0000 ㎡</p>
+                                <p>분양입주 : 2024.06</p>
+                              </a>                
+                              <div class="btn_all"><a href="">상세보기</a></div>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href="">
+                                <img src="./images/info_04.jpg" alt="">
+                            </a>          
+                            <p class="purple">분양중</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>용인 양지2블럭 지역주택사업</h2>
+                                <p>경기도 용인시 양지면 양지리 산 105-8번지 일원 </p>
+                                <p>공급규모 :  공동주택 1,274세대 및 근린생활시설 </p>
+                                <p>분양입주 : 2024.06</p>
+                            </a>
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href=""><img src="./images/info_05.jpg" alt=""></a>
+                            <p class="purple">분양중</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>청림동 지역주택조합 아파트 신축공사</h2>
+                                <p>서울시 관악구 봉천동 14-120번지 일원</p>
+                                <p>공급규모 : 공동주택 7개동- 372세대_지하2층~지상24층</p>
+                                <p>분양입주 : 2026.12</p>
+                            </a>
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href=""><img src="./images/info_06.jpg" alt=""></a>             
+                            <p class="gray">분양예정</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>진천문백 지역주택조합</h2>
+                                <p>진천군 문백면 문덕리 산22-4번지 일원</p>
+                                <p>공급규모 : 공동주택 648세대</p>
+                                <p>분양입주 : 2024.12</p>
+                            </a>
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href=""><img src="./images/info_07.jpg" alt=""></a>
+                            <p class="gray">분양예정</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>괴산 서부 지역주택사업</h2>
+                                <p>충청북도 괴산군 서부리 산23-37번지 일원</p>
+                                <p>공급규모 :  공동주택 614세대 </p>
+                                <p>분양입주 : </p>
+                            </a>
+                            
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href=""><img src="./images/info_08.jpg" alt=""></a>
+                            <p class="gray">분양예정</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>여주 서해스카이팰리스 주상복합사업</h2>
+                                <p>여주시 천송동 591-7번지 일원 </p>
+                                <p>공급규모 :  공동주택 174세대, 오피피스텔 9호 및 근린생활시설 </p>
+                                <p>분양입주 : 2024.02</p>
+                            </a>
+                            
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href=""><img src="./images/info_09.jpg" alt=""></a>
+                            <p class="gray">분양예정</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>안성 공도 공동주택사업</h2>
+                                <p>공도 양기2지구 도시개발사업구역 내 1차 </p>
+                                <p>공급규모 :  공동주택 976세대 및 부대복리시설 </p>
+                                <p>분양입주 : 2019.05</p>
+                            </a>
+                            
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="imgbox">
+                            <a href=""><img src="./images/info_10.jpg" alt=""></a>
+                            <p class="gray">분양예정</p>
+                        </div>
+                        <div class="txt_box">
+                            <a href="">
+                                <h2>공주금흥 행복주택 건설공사 1공구</h2>
+                                <p>충청남도 공주시 금흥동 302번지 일원 </p>
+                                <p>공급규모 :  공동주택 200세대 및 근린생활시설  </p>
+                                <p>분양입주 : 2022.05</p>
+                            </a>  
+                            <div class="btn_all"><a href="">상세보기</a></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <a href="" class="btn prev"><span class="blind">이전</span></a>
+                <a href="" class="btn next"><span class="blind">다음</span></a>
+            </div>
+            
+        </section>
+        <section class="perfor">
+            <div class="title_box" data-aos="fade-up" data-aos-duration="1000">
+                <h2>사업실적</h2>
+                <p>고객의 최대 감동을 위해 최선의 노력을 다하겠습니다.</p>
+            </div>
+            <div class="wrap" data-aos="fade-up" data-aos-duration="1000">
+                <div class="swiper perslide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide first">
+                            <div class="imgbox"><a href=""><img src="./images/perfo_01.png" alt=""></a></div>
+                            <div class="txt_box">
+                                <em>건축 분야</em>
+                                <p>동춘2구역 도시개발사업구역 내 1-1BL</p>
+                                 <!--@수정 em/p 태그로 변경  -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="imgbox"><a href=""><img src="./images/perfo_02.png" alt=""></a></div>
+                            <div class="txt_box">
+                                <em>건축분야</em>
+                                <p>인천광역시 연수구 옥련동 118-1번지 일원</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="imgbox"><a href=""><img src="./images/perfo_03.jpg" alt=""></a></div>
+                          <div class="txt_box">
+                              <em>건축분야</em>
+                              <p>경기도 군포시 대야미동 666-1번지 일원 </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="imgbox"><img src="./images/perfo_04.jpg" alt=""></div>
+                          <div class="txt_box">
+                              <em>건축분야</em>
+                              <p> 서울시 은평구 구산동 307-1번지 일원 </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="imgbox"><img src="./images/perfo_05.jpg" alt=""></div>
+                          <div class="txt_box">
+                              <em>건축분야</em>
+                              <p>서울시 서초구 방배동 3279 </p>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="imgbox"><img src="./images/perfo_06.jpg" alt=""></div>
+                          <div class="txt_box">
+                              <em>건축분야</em>
+                              <p>동춘2구역 도시개발사업구역 내 4블럭 </p>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <a href="" class="btn prev"><span class="blind">이전</span></a>
+                <a href="" class="btn next"><span class="blind">다음</span></a>
+            </div>
+
+            <div class="view_btn">
+                <a href="">View more <span></span></a>
+            </div>
+        </section>
+        <section class="sc_banner">
+            <!-- @수정 ul이 아니라 div 3개로 변경 -->
+            <div class="banner_box">
+                <a href="">
+                    <div class="imgbox">
+                        <img src="./images/banner_01.png" alt="">
+                    </div>
+                    <div class="txt_box">
+                        <em>recruit</em>
+                        <h2>채용공고</h2>
+                        <span class="arrow"></span>
+                    </div>
+                </a>
+            </div>    
+            <div class="banner_box">
+                    <a href="">
+                        <div class="imgbox">
+                            <img src="./images/banner_02.png" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <em>Patner</em>
+                            <h2>그룹사 현황</h2>
+                            <span class="arrow"></span>
+                        </div>
+                    </a>
+            </div>
+                <div class="banner_box">
+                    <a href="">
+                        <div class="imgbox">
+                            <img src="./images/banner_03.jpg" alt="">
+                        </div>
+                        <div class="txt_box">
+                            <em>Contact</em>
+                            <h2>찾아오시는길</h2>
+                            <span class="arrow"></span>
+                        </div>
+                    </a>
+                <div>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <!-- link_area -->
+            <ul class="info_inner">
+                <li><a href="">개인정보보호정책</a></li>
+                <li><a href="">이메일주소무단수집거부</a></li>
+                <li><a href="">찾아오시는길</a></li>
+            </ul>
+            <div class="site">
+                <a href="" class="family">
+                    FAMILY SITE <span class="arrow"></span>
+                </a>
+                <ul class="sub">
+                    <li><a href="">제주아덴힐 R&G</a></li>
+                    <li><a href="">세인트존스호텔</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="address_wrap">
+            <!-- footer에서는 로고 h1이 아니라 h2로 변경 -->
+            <h2 class="logo"><span class="blind">서해종합건설</span></h2>
+            <address>
+                <span>ADRESS</span>(06606)서울특별시 서초구 서초대로 301,6층(서초동,동익성봉빌딩)
+                <span>TEL</span><a href="tel:02-761-1234"></a>02)02-761-1234
+                <span>FAX</span>02)783-7922
+            </address>
+            <!-- copy부분 div가 아니라 p태그로 변경 -->
+            <div class="copy">Copyright ⓒ 2020 Seohai Construction. All Rights Reserved</div>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
